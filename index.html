@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie website </title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <h1 onClick="window.location.href=window.location.href" class="logo">
+                Movi<span class="primary-color">Flix</span>
+            </h1>
+
+            <form id="from">
+                <label class="label">
+                    <input type="text" id="search" placeholder="I'm looking for..." class="search" />
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+                        width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="m16.325 14.899l5.38 5.38a1.008 1.008 0 0 1-1.427 1.426l-5.38-5.38a8 8 0 1 1 1.426-1.426ZM10 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12Z" />
+                    </svg>
+                </label>
+            </form>
+        </nav>
+    </header>
+
+    <section class="container"></section>
+
+    <main id="main"></main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
